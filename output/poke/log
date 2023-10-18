@@ -1,0 +1,56 @@
+vg_on_pokemon
+imsize: 720
+lr: 0.004, epoch: 50
+w_c, w_s = 1, 1000
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.004, epoch: 50
+w_c, w_s = 1, 10000
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.004, epoch: 50
+w_c, w_s = 1, 10000
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.004, epoch: 50
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.004, epoch: 50
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.004, epoch: 50
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.01, epoch: 2000
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+
+vg_on_pokemon
+imsize: 720
+lr: 0.01, epoch: 2000
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_2
+

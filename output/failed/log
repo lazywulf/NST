@@ -1,0 +1,133 @@
+output_1
+imsize: 512
+lr: 1e-3, epoch: 1000
+w_c, w_s = 1, 100
+content_layers: "conv2_1"
+style_layers: "conv1_1", "conv2_1", "conv2_2"
+
+output_2
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv2_2
+content_layer: conv3_1
+
+output_3
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 1, 10
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_4
+imsize: 512
+lr: 0.001, epoch: 50
+w_c, w_s = 1, 20
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_5
+imsize: 512
+lr: 0.001, epoch: 50
+w_c, w_s = 1, 20
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1, conv5_1
+content_layer: conv4_1
+
+output_6
+imsize: 512
+lr: 0.001, epoch: 100
+w_c, w_s = 1, 5
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_7
+imsize: 512
+lr: 0.001, epoch: 100
+w_c, w_s = 1, 7
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_8
+imsize: 512
+lr: 0.003, epoch: 300
+w_c, w_s = 1, 14
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_9
+imsize: 512
+lr: 0.003, epoch: 300
+w_c, w_s = 1, 10
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_1
+
+output_10
+imsize: 512
+lr: 0.003, epoch: 200
+w_c, w_s = 1, 1000
+style_layer: conv1_1, conv2_1, conv3_1, conv4_1
+content_layer: conv4_1
+
+output_11
+imsize: 512
+lr: 0.003, epoch: 200
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_12
+imsize: 512
+lr: 0.003, epoch: 200
+w_c, w_s = 1, 1
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_13
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 10, 1
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_13
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 1, 15
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_14
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 1, 1
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_15
+imsize: 512
+lr: 0.5, epoch: 1000
+w_c, w_s = 1, 1
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+output_16
+imsize: 512
+lr: 0.01, epoch: 1000
+w_c, w_s = 1, 1
+style_layer: conv1_1, conv2_1, conv3_1
+content_layer: conv4_1
+
+exp_on_style_layer1
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 1, 100
+style_layer: conv1_1, conv3_1, conv5_1
+content_layer: conv4_1
+
+exp_on_style_layer2
+imsize: 512
+lr: 0.001, epoch: 1000
+w_c, w_s = 1, 100
+style_layer: conv3_1, conv4_1, conv5_1
+content_layer: conv4_1
+
